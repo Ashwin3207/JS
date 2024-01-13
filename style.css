@@ -2,18 +2,24 @@
   {
     margin:0px;
     padding: 0px;
+    color: #0F1035;
    
+  }
+  body
+  {
+    background-color: #DCF2F1;
   }
   #container
   {
     width: 25%;
-    background-color: red;
+    background-color: #7FC7D9;
     height: 30rem;
     position: relative;
     margin: auto;
     top:5rem;  
     border-radius:10px; 
     justify-items: center;
+    box-shadow: 5px 5px 3px#365486;
 }
 #text
 {
@@ -25,7 +31,7 @@
 }
 #input
 {   
-    background-color:blue;
+    background-color:#DCF2F1;
     box-shadow: none;
     height: 2.5rem;
     width: 80%;
@@ -38,6 +44,7 @@ button
     font-size: 1.5rem;
     width: 40%;
     height: 2.5rem;
+    background-color: #DCF2F1;
 }
 #label
 {
