@@ -2,6 +2,7 @@
   {
     margin:0px;
     padding: 0px;
+   
   }
   #container
   {
@@ -28,5 +29,22 @@
     box-shadow: none;
     height: 2.5rem;
     width: 80%;
+    
 
+}
+button
+{
+    
+    font-size: 1.5rem;
+    width: 40%;
+    height: 2.5rem;
+}
+#label
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#wtext
+{
+    font-size: 1.5rem;
 }

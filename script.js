@@ -1,13 +1,16 @@
 let num=Math.floor(Math.random()*100);
-
+console.log(num);
 function play()
 {
     let gnum=document.getElementById("input").value;
+    console.log(gnum);
     if(gnum==num)
-    alert("U guessed correct! ");
+    document.getElementById("wtext").innerHTML="Your guess is correct! ";
     else if(gnum>num)
-    alert("Enter a smaller number !");
+    document.getElementById("wtext").innerHTML="Enter a smaller number! ";
+    else if(gnum=="")
+    document.getElementById("wtext").innerHTML="Enter a number! ";
     else
-    alert("Enter a greater number!");
+    document.getElementById("wtext").innerHTML="Enter a larger number! ";
 
 }
