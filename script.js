@@ -29,7 +29,11 @@ function play()
     }
     
 
-    
+    if(lives==0)
+    {
+        document.getElementById("label").innerHTML="<br><br>GAME OVER";
+        document.getElementById("label").style="color:red;font-size:2.5rem;";
+    }
 
 
 
