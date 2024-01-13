@@ -9,7 +9,7 @@ function play()
         document.getElementById("wtext").innerHTML="Your guess is correct! ";
     }
    
-    else if(gnum>cxe12s)
+    else if(gnum>cxe12)
     {
         document.getElementById("wtext").innerHTML="Enter a smaller number! ";
         lives--;
