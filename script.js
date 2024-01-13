@@ -1,5 +1,6 @@
 let cxe12=Math.floor(Math.random()*100);
 let lives=5;
+
 function play()
 {
     let gnum=document.getElementById("input").value;
