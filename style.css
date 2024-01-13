@@ -12,6 +12,7 @@
   }
   #container
   {
+    
     width: 25%;
     background-color: #7FC7D9;
     height: 30rem;
@@ -56,4 +57,10 @@ button
 #wtext
 {
     font-size: 1.5rem;
+}
+#try
+{
+  text-align: center;
+  font-size:1.5rem;
+  font-weight: 600;
 }
