@@ -1,5 +1,5 @@
 let num=Math.floor(Math.random()*100);
-console.log(num);
+
 function play()
 {
     let gnum=document.getElementById("input").value;
