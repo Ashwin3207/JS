@@ -34,7 +34,7 @@ function play()
     {
         document.getElementById("label").innerHTML="<br><br>GAME OVER";
         document.getElementById("label").style="color:red;font-size:2.5rem;";
-        document.getElementById("num").innerHTML=`Your number was <div id="numt"></div>`;
+        document.getElementById("num").innerHTML=`<br>Your number was<div id="numt"></div>`;
         document.getElementById("numt").innerHTML=cxe12;
     }
 
