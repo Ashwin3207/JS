@@ -64,3 +64,9 @@ button
   font-size:1.5rem;
   font-weight: 600;
 }
+#num
+{
+  color:#0F1035;
+  text-align: center;
+  font-size: 1.5rem;
+}
